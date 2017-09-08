@@ -1,6 +1,10 @@
 <?php
-	//header("Location: login.php");
-	
+	if(isseT($_SEESION['login_user'])){
+		
+	}
+	else{
+		header("Location: login.php");
+	}
 	
 ?>
 <!DOCTYPE html>

@@ -1,7 +1,6 @@
 <?php
 	require("connect.php");
 	include("module/user/check_admin.php");
-	echo "laskdlad";
 ?>
 
 <!DOCTYPE html>
